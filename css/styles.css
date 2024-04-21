@@ -1,5 +1,13 @@
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 ul,
 ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
     list-style-type: none;
 }
 a {
@@ -9,13 +17,55 @@ a {
 button {
     cursor: pointer;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
-
 }
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.text-title {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+.card-content {
+    padding: 32px 16px;
+}
+
 /* ========== HEADER STYLES ==========*/
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+.menu-container {
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.address-container {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -24,6 +74,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 .color-logo {
     color: #2e2f42;
@@ -59,11 +110,17 @@ body {
 }
 
 /* ========= HERO STYLES ========== */
-
+.hero-container {
+    padding: 188px 472px;
+}
 .page-hero {
     background: #2e2f42;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .text-hero {
+    max-width: 496px;
+    margin-bottom: 48px;
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -72,8 +129,13 @@ body {
         color: #ffffff;
 }
 .button-hero {
+    display: flex;
+    padding: 16px 32px;
     font-family: "Roboto", sans-serif;
     background: #4d5ae5;
+    border-radius: 4px;
+    border: none;
+    min-width: 169px;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -86,8 +148,28 @@ body {
 }
 
 /* ========= BENEFITS STYLES========== */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .benefits-section {
     background-color: #F4F4FD;
+}
+
+.benefit-list-container {
+    display: flex;
+    column-gap: 24px;
+}
+.list-item {
+    width: calc((100%-72px)/4);
 }
 .list-benefits {
     background-color: #F4F4FD;
@@ -111,6 +193,11 @@ body {
 .our-team-section {
     background-color: #F4F4FD;
 }
+.our-team-container {
+    display: flex;
+    column-gap: 24px;
+    width: calc((100%-72px)/4);
+}
 .text-title {
     text-transform: capitalize;
     font-weight: 700;
@@ -125,6 +212,9 @@ body {
 }
 .list-name {
     background-color: #FFFFFF;
+}
+.img-item {
+    margin-bottom: 32px;
 }
 .name-people {
     font-weight: 500;
@@ -144,6 +234,11 @@ body {
 }
 
 /* =========Our Portfolio STYLES========= */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
 
 .list-portfolio {
     background-color: #FFFFFF;
@@ -162,9 +257,18 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
+.list-portf-item {
+    flex-basis: 360px;
+}
 
 /* ========= FOOTER STYLES========= */
-
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 1020px;
+    padding-left: 156px;
+    max-width: 264px;
+}
 .page-footer {
     background-color: #2e2f42;;
 }
