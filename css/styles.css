@@ -81,6 +81,9 @@ body {
 .color-logo {
     color: #2e2f42;
 }
+.menu-item {
+    padding: 24px 0;
+}
 .menu-link {
     font-weight: 500;
         font-size: 16px;
@@ -117,7 +120,7 @@ body {
     background: #2e2f42;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 .text-hero {
     max-width: 496px;
@@ -161,7 +164,6 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
 }
 .benefits-section {
     background-color: #F4F4FD;
@@ -172,13 +174,11 @@ body {
     gap: 24px;
 }
 .list-item {
-    width: calc((100%-72px)/4);
     margin-right: 24px;
+    width: calc((100% - 72px) / 4);
 
 }
-.item-list {
-    margin-right: 0;
-}
+
 .list-benefits {
     background-color: #F4F4FD;
 }
@@ -188,6 +188,7 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .text-benefits {
     font-weight: 400;
@@ -222,6 +223,8 @@ body {
 }
 .list-name {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .img-item {
     margin-bottom: 32px;
@@ -246,8 +249,12 @@ body {
 
 /* =========Our Portfolio STYLES========= */
 .text-title {
-    margin-bottom: 8px
+    margin-bottom: 72px;
 }
+.container-portf {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+ }
 .list-portf-item card-content {
     border: 1px solid #e7e9fc;
 }
@@ -266,7 +273,8 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2e2f42
+        color: #2e2f42;
+        margin-bottom: 8px
 }
 .desk-portf {
     font-weight: 400;
@@ -289,10 +297,15 @@ body {
     max-width: 264px;
 }
 .page-footer {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
+    padding: 100px 0;
 }
 .color-logofoter {
     color: #f4f4fd;
+}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .text-footer {
     font-weight: 400;
