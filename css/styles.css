@@ -31,6 +31,7 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    border-top: none;
 }
 .section-padding {
     padding-top: 120px;
@@ -177,7 +178,6 @@ body {
 .list-item {
     margin-right: 24px;
     width: calc((100% - 72px) / 4);
-
 }
 
 .list-benefits {
@@ -251,10 +251,6 @@ body {
 /* =========Our Portfolio STYLES========= */
 .text-title {
     margin-bottom: 72px;
-}
-
-.list-portf-item card-content {
-    border: 1px solid #e7e9fc;
 }
 .portfolio-container {
     display: flex;
