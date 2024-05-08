@@ -163,9 +163,6 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.benefits-section {
-    background-color: #F4F4FD;
-}
 
 .benefit-list-container {
     display: flex;
@@ -176,9 +173,6 @@ body {
     width: calc((100% - 72px) / 4);
 }
 
-.list-benefits {
-    background-color: #F4F4FD;
-}
 .benefits-item {
     font-weight: 500;
         font-size: 20px;
@@ -202,8 +196,6 @@ body {
 .our-team-container {
     display: flex;
     gap: 24px;
-    width: calc((100%-72px)/4);
-    border-radius: 0px 0px 4px 4px;
 }
 .text-title {
     text-transform: capitalize;
@@ -215,17 +207,13 @@ body {
         color: #2e2f42;
         margin-bottom: 72px;
 }
-.list-team {
-    background-color: #FFFFFF;
-}
+
 .list-name {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
-.img-item {
-    margin-bottom: 32px;
-}
+
 .name-people {
     font-weight: 500;
     margin-bottom: 8px;
