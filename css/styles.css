@@ -37,10 +37,7 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.text-title {
-    padding-top: 120px;
-    padding-bottom: 72px;
-}
+
 
 /* ========== HEADER STYLES ==========*/
 .page-header {
@@ -128,7 +125,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
-        margin: 0 auto;
+        margin: 48px auto;
 }
 .button-hero {
     display: block;
@@ -143,7 +140,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
-        margin: 48px auto;
+        margin: 0 auto;
 }
 .button-hero:hover,
 .button-hero:focus {
